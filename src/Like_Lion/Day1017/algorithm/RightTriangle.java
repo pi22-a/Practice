@@ -13,6 +13,6 @@ public class RightTriangle {
 
     public static void main(String[] args) {
         RightTriangle rt = new RightTriangle();
-        rt.printstar(10,"#");
+        rt.printstar(5,"#");
     }
 }

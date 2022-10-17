@@ -10,20 +10,12 @@ public class Pyramid {
             for (int j = 0; j<(2*i)+1; j++){
                 System.out.printf(a);
             }
-
             System.out.printf("\n");
         }
     }
 
     public static void main(String[] args) {
         Pyramid pr = new Pyramid();
-        pr.printstar(5,"*");
+        pr.printstar(5,"@");
     }
 }
-
-/*
-   *
-  * *
- * * *
-* * * *
- */

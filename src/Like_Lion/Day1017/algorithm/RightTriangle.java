@@ -1,22 +1,24 @@
 package Like_Lion.Day1017.algorithm;
 
 public class RightTriangle {
-    public static void main(String[] args) {
+    public void printstar(int n, String a) {
         /*
         *
         * *
         * * *
         * * * *
          */
-        System.out.println("*");
-        System.out.println("* *");
-        System.out.println("* * *");
-        System.out.println("* * * *");
 
-        for(int i = 0; i<5; i++){
+        for(int i = 0; i<n; i++){
             for (int j = 0; j<i; j++){
-                System.out.printf("*");
+                System.out.printf(a);
             }
+            System.out.printf("\n");
         }
+    }
+
+    public static void main(String[] args) {
+        RightTriangle rt = new RightTriangle();
+        rt.printstar(10,"#");
     }
 }
